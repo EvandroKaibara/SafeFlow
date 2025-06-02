@@ -1,0 +1,30 @@
+.container--alerta{
+    padding: 0 10rem;
+    color: var(--branco);
+}
+
+.container--alerta-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2--alerta{
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+.container--alerta-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link--alerta{
+    display: flex;
+    align-items: center;
+    background-color: var(--branco);
+    color: var(--preto);
+    font-size: 18px;
+    padding: .5rem;
+    height: 3rem;
+    border-radius: 5px;
+}

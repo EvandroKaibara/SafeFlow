@@ -1,5 +1,6 @@
 
 import AbrigosProximos from './components/AbrigosProximos'
+import AlertasDeRisco from './components/AlertasDeRisco'
 import Banner from './components/Banner'
 import Header from './components/header'
 
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Banner />
         <AbrigosProximos />
+        <AlertasDeRisco />
       </main>
       <footer>
 
