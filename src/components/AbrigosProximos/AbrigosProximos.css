@@ -1,0 +1,9 @@
+.container--abrigos{
+    padding: 5rem 10rem;
+    color: var(--branco);
+}
+
+.h2--abrigos{
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
