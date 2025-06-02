@@ -1,0 +1,22 @@
+.container--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--marrom);
+    width: 100vw;
+}
+
+.img--header{
+    width: 10vw;
+}
+
+.nav--header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link--header{
+    padding: 0 2vw;
+    font-size: 18px;
+    color: var(--branco);
+}

@@ -1,0 +1,27 @@
+.container--banner{
+    height: 80vh;
+    background-image: url('/img/banner.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5rem 5rem;
+}
+
+.h1--banner{
+    text-align: center;
+    width: 50%;
+    color: var(--branco);
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.a--banner{
+    display: flex;
+    align-items: center;
+    background-color: var(--marrom);
+    font-size: 26px;
+    color: var(--branco);
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+}
