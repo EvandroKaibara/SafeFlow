@@ -13,6 +13,10 @@
     margin-bottom: 3rem;
 }
 
+.h3--alerta{
+    font-weight: 300;
+}
+
 .container--alerta-items{
     display: flex;
     justify-content: space-between;

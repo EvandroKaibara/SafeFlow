@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--marrom);
+    background-color: var(--vermelho-escuro);
     width: 100vw;
+    height: 10vh;
 }
 
 .img--header{
