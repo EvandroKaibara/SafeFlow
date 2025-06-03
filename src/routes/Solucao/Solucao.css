@@ -30,7 +30,7 @@
 
 .img-bloco1{
     height: 45vh;
-    width: auto;
+    margin-left: 2rem;
 }
 
 .container--bloco2{
@@ -57,8 +57,10 @@
 .img-bloco4{
     height: 50vh;
     margin-bottom: 3rem;
+    margin-left: 2rem;
 }
 
 .container--bloco5{
     padding: 0 15rem;
+    margin-bottom: 3rem;
 }

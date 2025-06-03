@@ -40,11 +40,11 @@ Rode o projeto
 ## 🤝 Equipe
 
 - Front End
-    - Evandro Kaibara
-    - Mateus Mallet
+    - Evandro Yuji Kaibara de Oliveira RM:559274
+    - Mateus da Rocha Mallet RM:560491
 - Ideias do projeto
-    - Evandro Kaibara
-    - Mateus Mallet
+    - Evandro Yuji Kaibara de Oliveira RM:559274
+    - Mateus da Rocha Mallet RM:560491
 
 
 ## 🚀 Planos Futuros
