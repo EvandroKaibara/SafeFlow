@@ -1,0 +1,29 @@
+.container--erro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: var(--branco);
+}
+
+.container--erro-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.h1--erro{
+    font-size: 42px;
+}
+
+.p--erro{
+    font-size: 24px;
+}
+
+.link--erro{
+    font-size: 24px;
+    text-decoration: underline;
+}
