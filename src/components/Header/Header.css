@@ -16,8 +16,19 @@
     justify-content: space-between;
 }
 
-.link--header{
+.link--header {
     padding: 0 2vw;
     font-size: 18px;
     color: var(--branco);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.link--header:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img--header:hover {
+    transform: scale(1.05);
 }
