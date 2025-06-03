@@ -10,6 +10,7 @@ import Login from "./routes/Login/Login.jsx"
 import Cadastro from './routes/Cadastro/Cadastro.jsx';
 import About from './routes/About/About.jsx';
 import Error from './routes/Error/Error.jsx';
+import Solucao from './routes/Solucao/Solucao.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/login' element={<Login/>} />
           <Route path='/cadastro' element={<Cadastro/>} />
           <Route path='/sobre' element={<About/>} />
+          <Route path='/solucao' element={<Solucao/>} />
           <Route path='/*' element={<Error/>} />
         </Routes>
         <Footer />
