@@ -20,7 +20,7 @@ const Login = () => {
                     <button class='button--login'><NavLink to="/">Entrar</NavLink></button>
                 </div>
 
-                <span className='span--login'>Não tem login? <NavLink to="/cadastro" className="link--login">se cadastre!</NavLink></span>
+                <span className='span--login'>Não tem login? <NavLink to="/cadastro" className="link--login">Cadastre-se!</NavLink></span>
             </form>
         </div>
         </>
