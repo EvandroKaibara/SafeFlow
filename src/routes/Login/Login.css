@@ -1,0 +1,53 @@
+.container--banner-login{
+    background-image: url('/img/banner.png');
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form--login{
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 25px;
+    height: 80%;
+    width: 50%;
+}
+
+.h1--login{
+    font-size: 36px;
+}
+
+.container--input-login{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 60%;
+    font-size: 24px;
+}
+
+.input--login{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 25px;
+}
+
+.button--login{
+    font-size: 24px;
+    width: max-content;
+    padding: 10px 45px;
+    border-radius: 25px;
+}
+
+.span--login{
+    font-size: 24px;
+}
+
+.link--login{
+    text-decoration: underline;
+}

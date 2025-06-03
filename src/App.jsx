@@ -1,33 +1,29 @@
+import './index.css';
 
-import AbrigosProximos from './components/AbrigosProximos'
-import AlertasDeRisco from './components/AlertasDeRisco'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import Header from './components/header'
-import InformacoesUteis from './components/InformacoesUteis'
-import Mudanca from './components/Mudancas'
-import SobreNos from './components/SobreNos'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+import Header from './components/Header/index.jsx';
+import Footer from './components/Footer/index.jsx';
+
+import Home from "./routes/Home/Home.jsx"
+import Login from "./routes/Login/Login.jsx"
+import Cadastro from './routes/Cadastro/Cadastro.jsx';
+
 
 function App() {
-
   return (
     <>
-      <header>
+    <BrowserRouter>
         <Header />
-      </header>
-      <main>
-        <Banner />
-        <AbrigosProximos />
-        <AlertasDeRisco />
-        <InformacoesUteis />
-        <Mudanca />
-        <SobreNos />
-      </main>
-      <footer>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/login' element={<Login/>} />
+          <Route path='/cadastro' element={<Cadastro/>} />
+        </Routes>
         <Footer />
-      </footer>
+    </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

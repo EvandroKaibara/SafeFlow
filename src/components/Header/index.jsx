@@ -1,15 +1,14 @@
 import './Header.css';
 
+import { NavLink } from 'react-router-dom';
+
 const Header = () => {
     return (
         <>
         <div className='container--header'>
-            <img src="./img/Logo.png" alt="Logo do SafeFlow" className='img--header'/>
+            <NavLink to="/"><img src="./img/Logo.png" alt="Logo do SafeFlow" className='img--header'/></NavLink>
             <nav className='nav--header'>
-                <a className='link--header'>Abrigos</a>
-                <a className='link--header'>Alertas</a>
-                <a className='link--header'>Informações</a>
-                <a className='link--header'>Sobre nós</a>
+                <NavLink to="/login" className='link--header'>Login</NavLink>
             </nav>
         </div>
         </>

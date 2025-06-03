@@ -1,20 +1,16 @@
+import './Home.css'
 
-import AbrigosProximos from './components/AbrigosProximos'
-import AlertasDeRisco from './components/AlertasDeRisco'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import Header from './components/header'
-import InformacoesUteis from './components/InformacoesUteis'
-import Mudanca from './components/Mudancas'
-import SobreNos from './components/SobreNos'
+import AbrigosProximos from '../../components/AbrigosProximos'
+import AlertasDeRisco from '../../components/AlertasDeRisco'
+import Banner from '../../components/Banner'
+import InformacoesUteis from '../../components/InformacoesUteis'
+import Mudanca from '../../components/Mudancas'
+import SobreNos from '../../components/SobreNos'
 
-function App() {
+const Home = () => {
 
   return (
     <>
-      <header>
-        <Header />
-      </header>
       <main>
         <Banner />
         <AbrigosProximos />
@@ -23,11 +19,8 @@ function App() {
         <Mudanca />
         <SobreNos />
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   )
 }
 
-export default App
+export default Home

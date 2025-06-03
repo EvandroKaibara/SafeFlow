@@ -1,0 +1,53 @@
+.container--banner-cadastro{
+    background-image: url('/img/banner.png');
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form--cadastro{
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 25px;
+    height: 80%;
+    width: 50%;
+}
+
+.h1--cadastro{
+    font-size: 36px;
+}
+
+.container--input-cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 60%;
+    font-size: 24px;
+}
+
+.input--cadastro{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 25px;
+}
+
+.button--cadastro{
+    font-size: 24px;
+    width: max-content;
+    padding: 10px 45px;
+    border-radius: 25px;
+}
+
+.span--cadastro{
+    font-size: 24px;
+}
+
+.link--cadastro{
+    text-decoration: underline;
+}
