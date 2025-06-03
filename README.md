@@ -1,13 +1,71 @@
-# React + Vite
+# 🌐 SafeFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ SafeFlow tem o objeto de facilitar a comunicação de pessoas em situações de risco.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Dependências do Projeto
 
-## Expanding the ESLint configuration
+- React Icons
+- React Router Dom
+- Sonner
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# SafeFlow
+### 🧰 Requisitos do Projeto (React + Vite)
+
+Este projeto foi desenvolvido utilizando o **React** com **Vite**, garantindo maior performance e uma experiência de desenvolvimento mais fluida.
+
+### ✅ Pré-requisitos do Sistema
+
+- **Node.js** (versão 16 ou superior)
+- **npm**, **yarn** ou **pnpm** (gerenciador de pacotes)
+
+## 📈 Como Iniciar o Projeto Localmente
+
+Primeiramente você deve clonar o projeto para sua maquina:
+
+<code>git clone https://github.com/EvandroKaibara/SafeFlow.git</code>
+
+Apos isso abra o console
+
+<code>cd SafeFlow</code>
+
+Instale as dependências 
+
+<code>npm install</code>
+
+Rode o projeto
+
+<code>npm run dev</code>
+
+## 🤝 Equipe
+
+- Front End
+    - Evandro Kaibara
+    - Mateus Mallet
+- Ideias do projeto
+    - Evandro Kaibara
+    - Mateus Mallet
+
+
+## 🚀 Planos Futuros
+
+- ✅ Implementar um **banco de dados** para armazenar informações dos usuários.
+- ✅ Integrar o **Back-End** para o funcionamento completo do sistema.
+
+---
+
+## 🏁 Conclusão
+
+Este projeto proporcionou à equipe:
+
+- Um aprendizado prático e técnico.
+- O enfrentamento e superação de desafios.
+- A valorização da organização, pesquisa e motivação.
+
+Foi uma oportunidade valiosa para o crescimento e a evolução profissional de todos os envolvidos.
+
+---
+
+## 🔗 Acesso ao Projeto
+
+- 🔍 [Site Hospedado na Vercel](https://safe-flow.vercel.app/)
