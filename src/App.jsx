@@ -8,6 +8,7 @@ import Footer from './components/Footer/index.jsx';
 import Home from "./routes/Home/Home.jsx"
 import Login from "./routes/Login/Login.jsx"
 import Cadastro from './routes/Cadastro/Cadastro.jsx';
+import About from './routes/About/About.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/cadastro' element={<Cadastro/>} />
+          <Route path='/sobre' element={<About/>} />
         </Routes>
         <Footer />
     </BrowserRouter>

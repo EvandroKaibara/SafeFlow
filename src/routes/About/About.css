@@ -1,0 +1,22 @@
+.container--sobre-pagina{
+    display: flex;
+    flex-direction: column;
+    color: var(--branco);
+    padding: 5rem 25rem;
+}
+
+.h1--sobre{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.h2--sobre-pagina{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+
+.p--sobre-pagina, .ul--sobre-pagina{
+    font-size: 24px;
+    font-weight: 200;
+}

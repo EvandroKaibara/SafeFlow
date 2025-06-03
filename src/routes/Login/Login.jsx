@@ -17,7 +17,7 @@ const Login = () => {
                     <input type="password" class='input--login'/>
                 </div>
                 <div className="container--input-login">
-                    <button class='button--login'>Entrar</button>
+                    <button class='button--login'><NavLink to="/">Entrar</NavLink></button>
                 </div>
 
                 <span className='span--login'>Não tem login? <NavLink to="/cadastro" className="link--login">se cadastre!</NavLink></span>
