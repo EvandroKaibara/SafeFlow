@@ -42,7 +42,18 @@
     width: max-content;
     padding: 10px 45px;
     border-radius: 25px;
+    background-color: var(--marrom); 
+    color: var(--branco);            
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.button--cadastro:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
 
 .span--cadastro{
     font-size: 24px;

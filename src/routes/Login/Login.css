@@ -37,11 +37,21 @@
     border-radius: 25px;
 }
 
-.button--login{
+.button--login {
     font-size: 24px;
     width: max-content;
     padding: 10px 45px;
     border-radius: 25px;
+    background-color: var(--marrom); 
+    color: var(--branco);            
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button--login:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
 .span--login{
