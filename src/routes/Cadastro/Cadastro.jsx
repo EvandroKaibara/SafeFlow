@@ -21,7 +21,7 @@ const Cadastro = () => {
                     <input type="password" class='input--cadastro'/>
                 </div>
                 <div className="container--input-cadastro">
-                    <button class='button--cadastro'>Cadastrar</button>
+                    <button class='button--cadastro'><NavLink to="/cadastro">Cadastrar</NavLink></button>
                 </div>
             </form>
         </div>
