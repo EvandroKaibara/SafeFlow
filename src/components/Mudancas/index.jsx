@@ -1,6 +1,7 @@
 import './Mudancas.css';
 
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Toaster, toast } from 'sonner'
 
 const Mudanca = () => {
     return(
@@ -8,7 +9,8 @@ const Mudanca = () => {
         <div className="container--mudanca">
             <div className="container--mudanca-titulo">
                 <h2 className='h2--mudanca-titulo'>Mudanças climáticas</h2>
-                <a className='link--mudanca'>Ver todos<FaLongArrowAltRight size={20}/></a>
+                <Toaster richColors/>
+                <a className='link--mudanca' onClick={() => toast.warning('Função em desenvolvimento!')}>Ver todos<FaLongArrowAltRight size={20}/></a>
             </div>
             
             <div className="container--mudanca-items">

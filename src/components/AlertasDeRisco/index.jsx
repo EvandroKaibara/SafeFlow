@@ -1,6 +1,7 @@
 import './AlertasDeRisco.css';
 
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Toaster, toast } from 'sonner'
 
 const AlertasDeRisco = () => {
     return(
@@ -8,7 +9,8 @@ const AlertasDeRisco = () => {
         <div className="container--alerta">
             <div className="container--alerta-titulo">
                 <h2 className='h2--alerta'>Alertas e Riscos Atuais</h2>
-                <a className='link--alerta'>Ver todos<FaLongArrowAltRight size={20}/></a>
+                <Toaster richColors/>
+                <a className='link--alerta' onClick={() => toast.warning('Função em desenvolvimento!')}>Ver todos<FaLongArrowAltRight size={20}/></a>
             </div>
             
             <div className="container--alerta-items">

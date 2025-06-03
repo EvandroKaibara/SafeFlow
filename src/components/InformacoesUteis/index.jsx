@@ -1,6 +1,7 @@
 import './InformacoesUteis.css';
 
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Toaster, toast } from 'sonner'
 
 const InformacoesUteis = () => {
     return(
@@ -8,7 +9,8 @@ const InformacoesUteis = () => {
         <div className="container--informacoes">
             <div className="container--informacoes-titulo">
                 <h2 className='h2--informacoes'>Informações Úteis em Caso de Emergência</h2>
-                <a className='link--informacoes'>Ver todos<FaLongArrowAltRight size={20}/></a>
+                <Toaster richColors/>
+                <a className='link--informacoes' onClick={() => toast.warning('Função em desenvolvimento!')}>Ver todos<FaLongArrowAltRight size={20}/></a>
             </div>
             
             <div className="container--informacao-items">
