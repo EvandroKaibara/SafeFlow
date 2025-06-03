@@ -33,3 +33,39 @@
 .img--sobre{
     border-radius: 25px;
 }
+
+.container--sobre{
+    padding: 5rem 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.container--sobre-texto{
+    margin-right: 3rem;
+}
+
+.h2--sobre{
+    color: var(--branco);
+    margin-bottom: 3rem;
+}
+
+.p--sobre{
+    color: var(--cinza);
+    padding: 0 3rem 3rem 0;
+}
+
+.link--sobre{
+    display: flex;
+    align-items: center;
+    background-color: var(--branco);
+    color: var(--preto);
+    font-size: 18px;
+    padding: .5rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+.img--sobre{
+    border-radius: 25px;
+}
