@@ -1,0 +1,46 @@
+.container--footer{
+    background-color: var(--vermelho-escuro);
+    display: flex;
+    align-items: center;
+    padding: 5rem 15rem;
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.container--footer-redes, .container--footer-sobre, .container--footer-campanhia, .container--footer-suporte, .container--footer-newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3rem;
+    height: 15vh;
+    font-weight: 300;
+}
+
+.h3--footer{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.container--footer-newsletter{
+    width: 20%;
+}
+
+.input--footer{
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.button--footer{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.input--footer::placeholder{
+    display: flex;
+    font-family: var(--font-primaria);
+    padding: 5px;
+    font-size: 14px;
+}

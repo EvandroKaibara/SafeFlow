@@ -2,6 +2,7 @@
 import AbrigosProximos from './components/AbrigosProximos'
 import AlertasDeRisco from './components/AlertasDeRisco'
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 import Header from './components/header'
 import InformacoesUteis from './components/InformacoesUteis'
 import Mudanca from './components/Mudancas'
@@ -23,7 +24,7 @@ function App() {
         <SobreNos />
       </main>
       <footer>
-
+        <Footer />
       </footer>
     </>
   )
