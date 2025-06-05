@@ -51,6 +51,7 @@ Rode o projeto
 
 - ✅ Implementar um **banco de dados** para armazenar informações dos usuários.
 - ✅ Integrar o **Back-End** para o funcionamento completo do sistema.
+- ✅ Deixar o site 100% **responsivo** para funcionamento em outros dispositivos.
 
 ---
 
